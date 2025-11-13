@@ -12,16 +12,15 @@ const counter = (amount) => {
 
 const counterTwo = {
     count: 0,
-
-    add(amount) {                     //? inside object all the function is called method
+    add(amount) {
         this.count = this.count + amount
     },
     print() {
-        console.log(count);
-    },
+        console.log(this.count)
+    }
 }
 
-counter.add(3)
-counter.add(3)
+counterTwo.add(4)
+counterTwo.add(3)
 
-counter.print()
+counterTwo.print()
