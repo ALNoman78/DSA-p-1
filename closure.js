@@ -28,3 +28,5 @@ const counter = createCounter()
 
 console.log(counter(5));
 console.log(counter(3));
+
+console.log(90);
